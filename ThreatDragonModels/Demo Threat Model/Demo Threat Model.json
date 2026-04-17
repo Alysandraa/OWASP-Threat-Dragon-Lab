@@ -303,6 +303,19 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "d94fdd29-dd9d-4d43-9966-e4d1ffd96693",
+                  "title": "Malicious Queries",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Stored data could be tampered with via malicious queries.",
+                  "mitigation": "Impose restrictions/parameters on allowed queries and their format - input sanitisation.\nLimit database access where possible.\nEnforce strict validation processes for each new query.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
                 }
               ],
               "hasOpenThreats": true,
@@ -312,7 +325,7 @@
               "isSigned": false,
               "storesInventory": null,
               "threatFrequency": {
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 1,
                 "denialOfService": 0
@@ -2143,7 +2156,7 @@
     ],
     "diagramTop": 1,
     "reviewer": "Jane Smith",
-    "threatTop": 2
+    "threatTop": 3
   },
   "version": "2.6.0"
 }
